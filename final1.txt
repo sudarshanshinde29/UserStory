@@ -1,0 +1,80 @@
+```json
+{
+    "epics": [
+        {
+            "epicTitle": "User Authentication and Profile Management",
+            "userStories": [
+                { "storyTitle": "As a new user, I want to register an account with a valid email address, password, name, mobile number, country of residence, and gender information so that I can access the site and make purchases." },
+                { "storyTitle": "As a returning user, I want to log in using my registered email address and password so that I can view my previous orders and continue shopping." },
+                { "storyTitle": "As a user, I want to be able to update my profile information (name, mobile number, country, gender) so that I can maintain accurate details." },
+                { "storyTitle": "As a user, I want to be able to reset my password through email verification so that I can regain access to my account." },
+                { "storyTitle": "As a user, I want to be able to log out of my account securely so that my personal information is protected." },
+                { "storyTitle": "As a user, I want to receive a confirmation email upon successful account registration." },
+                { "storyTitle": "As a user, I want to receive an email notification whenever there is an update or activity related to my account." }
+            ]
+        },
+        {
+            "epicTitle": "Product Catalog Management",
+            "userStories": [
+                { "storyTitle": "As a user, I want to browse the product catalog by category, including filtering by price, gender, and category, so that I can find the products I am interested in." },
+                { "storyTitle": "As a user, I want to view product details, including images, videos, descriptions, and pricing, so that I can make informed purchase decisions." },
+                { "storyTitle": "As a user, I want to be able to search for products using keywords, product name, category, or type, so that I can find the products I need quickly and easily." },
+                { "storyTitle": "As a product manager, I want to add new products with descriptions, images, videos, and pricing so that customers can purchase them." },
+                { "storyTitle": "As a product manager, I want to edit existing product information, including descriptions, images, videos, and pricing, so that the product catalog remains up-to-date." },
+                { "storyTitle": "As a product manager, I want to be able to upload product images and videos in various formats so that the product catalog is visually appealing." },
+                { "storyTitle": "As a product manager, I want to be able to manage product inventory and availability so that customers can see if items are in stock." },
+                { "storyTitle": "As a user, I want to be able to add products to my wishlist so that I can save them for later purchase." },
+                { "storyTitle": "As a user, I want to be able to view products that I have added to my wishlist so that I can purchase them later." }
+            ]
+        },
+        {
+            "epicTitle": "Shopping Cart and Checkout",
+            "userStories": [
+                { "storyTitle": "As a user, I want to be able to add products to my shopping cart so that I can purchase multiple items at once." },
+                { "storyTitle": "As a user, I want to be able to view the items in my shopping cart, including quantity and total price, so that I can confirm my order." },
+                { "storyTitle": "As a user, I want to be able to update the quantity of items in my shopping cart so that I can change the number of products I want to purchase." },
+                { "storyTitle": "As a user, I want to be able to remove items from my shopping cart so that I can adjust my order before checkout." },
+                { "storyTitle": "As a user, I want to be able to proceed to checkout securely with the items in my shopping cart so that I can complete my purchase." },
+                { "storyTitle": "As a user, I want to be able to enter my shipping address and billing information securely during checkout so that my order can be processed correctly." },
+                { "storyTitle": "As a user, I want to be able to choose a preferred shipping method during checkout so that I can select the option that suits my needs." },
+                { "storyTitle": "As a user, I want to be able to view the order summary, including shipping cost, taxes, and final price, before confirming the order." },
+                { "storyTitle": "As a user, I want to be able to make payments using credit card, net banking, or UPI during checkout so that I can complete the purchase conveniently." },
+                { "storyTitle": "As a user, I want to receive a confirmation email after placing an order so that I have a record of the purchase." },
+                { "storyTitle": "As a user, I want to be able to track my order status after placing an order so that I can monitor the delivery progress." }
+            ]
+        },
+        {
+            "epicTitle": "Payment Gateway Integration",
+            "userStories": [
+                { "storyTitle": "As a user, I want to be able to make secure online payments using credit card, net banking, or UPI so that I can complete the purchase conveniently." },
+                { "storyTitle": "As a user, I want to be able to enter my payment details securely on a secure payment gateway page so that my financial information is protected." },
+                { "storyTitle": "As a user, I want to be able to verify my payment details through an OTP or 2FA mechanism to ensure the transaction's security." },
+                { "storyTitle": "As a user, I want to receive a confirmation email after successful payment so that I have a record of the transaction." },
+                { "storyTitle": "As a system administrator, I want to be able to configure different payment gateway integrations for the website so that I can offer various payment options to customers." },
+                { "storyTitle": "As a system administrator, I want to be able to monitor payment transactions and track their status so that I can manage financial operations effectively." }
+            ]
+        },
+        {
+            "epicTitle": "Order Management",
+            "userStories": [
+                { "storyTitle": "As a user, I want to be able to view the history of my past orders so that I can track previous purchases." },
+                { "storyTitle": "As a user, I want to be able to cancel an order before it is shipped so that I can modify my purchase decisions." },
+                { "storyTitle": "As a user, I want to be able to contact customer support for any issues or queries related to my order so that I can get assistance." },
+                { "storyTitle": "As a system administrator, I want to be able to manage orders, including processing, tracking, and updating order status, so that I can keep track of customer purchases." },
+                { "storyTitle": "As a system administrator, I want to be able to generate invoices and shipping labels for orders so that I can manage the logistics effectively." }
+            ]
+        },
+        {
+            "epicTitle": "Website Security and Performance",
+            "userStories": [
+                { "storyTitle": "As a user, I want to be able to browse and purchase products on a secure website that protects my personal and financial information." },
+                { "storyTitle": "As a user, I want to have a fast and responsive website experience so that I can navigate the site easily and browse products without any delays." },
+                { "storyTitle": "As a system administrator, I want to implement security measures, such as SSL encryption and access controls, to protect the website and customer data from unauthorized access." },
+                { "storyTitle": "As a system administrator, I want to monitor website performance and optimize it for speed and efficiency to ensure a smooth user experience." },
+                { "storyTitle": "As a system administrator, I want to implement measures to prevent and mitigate potential security threats to the website and user data." },
+                { "storyTitle": "As a user, I want to be able to report any security concerns or suspicious activity on the website to the administrators so that they can take appropriate action." }
+            ]
+        }
+    ]
+}
+```
